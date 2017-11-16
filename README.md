@@ -20,9 +20,17 @@ Translate word or phrase using Yandex Services.
 go get github.com/kovetskiy/transline
 ```
 
+Arch Linux users can install package from aur:
+
+```
+yaourt -Sy transline-git
+```
+
+
 ## Options
 - *-d --dictionary* - Use dictionary for translation.
 - *-t --translator* - Use machinery translation.
 - *-l --lang <lang>* - Translation direction [default: en-ru].
 - *-s --synonyms <limit>* - Limit synonims. [default: 0]
 - *-o --output <format>* - Output format. Can be text or json. [default: text]
+
