@@ -1,0 +1,9 @@
+module github.com/kovetskiy/transline
+
+go 1.13
+
+require (
+	github.com/docopt/docopt-go v0.0.0-20180111231733-ee0de3bc6815
+	github.com/reconquest/karma-go v0.0.0-20190930125156-7b5c19ad6eab
+	github.com/stretchr/testify v1.4.0 // indirect
+)
